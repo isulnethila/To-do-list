@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Poppins } from 'next/font/google'
+import Sidbar from "./components/sidbar";
 
 const poppins = Poppins({
   weight: ['100','200','400','600'],
@@ -8,10 +9,9 @@ const poppins = Poppins({
 
 export default function Home() {
   return (
-    <main className={poppins.className}>
-      <selection>
-        <h1>To Do List</h1>
-      </selection>
+    <main className={`${poppins.className} p-5`} >
+     
+     
     </main>
   );
 }
