@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       >
        <div className="min-h-screen flex flex-col">
         <div><Header/></div>
-        <div className="flex-grow grid grid-cols-[400px_minmax(900px,_1fr)_100px] ">
+        <div className="flex-grow grid grid-cols-[200px_minmax(400px,_1fr)_100px] ">
           <div className=" "><Sidbar/></div>
           <div className="">{children}</div>
         </div>
