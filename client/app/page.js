@@ -17,7 +17,7 @@ export default function Home() {
       <div className="mx-10 md:mx-40 lg:mx-70 ">
         <div className=" bg-gray-500 p-5 grid grid-cols-2 rounded-2xl">
           <div className="flex flex-col">
-            <label>
+            <label className="font-bold">
               title1
             </label>
             <label>
